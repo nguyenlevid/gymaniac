@@ -1,0 +1,14 @@
+{
+  "Bon": [
+    {
+      "file": "src/tests/unit/user.test.ts",
+      "tests": []
+    }
+  ],
+  "Dit": [
+    {
+      "file": "src/tests/unit/gymClass.test.ts",
+      "tests": []
+    }
+  ]
+}

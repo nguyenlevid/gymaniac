@@ -1,0 +1,35 @@
+[
+  {
+    "full_name": "Alice Johnson",
+    "birth_date": "1990-05-15",
+    "gender": "female",
+    "phone": "1234567890",
+    "address": "123 Gym Street",
+    "username": "alicej",
+    "password": "securepass",
+    "email": "alice@example.com",
+    "membership_type": "basic"
+  },
+  {
+    "full_name": "Bob Smith",
+    "birth_date": "1985-11-02",
+    "gender": "male",
+    "phone": "0987654321",
+    "address": "456 Flex Ave",
+    "username": "bobsmith",
+    "password": "anotherpass",
+    "email": "bob@example.com",
+    "membership_type": "premium"
+  },
+  {
+    "full_name": "Dr. Éva Ngô",
+    "birth_date": "1995-12-30",
+    "gender": "non-binary",
+    "phone": "+84-912345678",
+    "address": "789 Đường Lê Lợi, Quận 1",
+    "username": "eva.n",
+    "password": "comp!ex_pass_123",
+    "email": "eva+test@example.vn",
+    "membership_type": "vip"
+  }
+]
