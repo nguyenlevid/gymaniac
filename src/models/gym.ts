@@ -11,6 +11,16 @@ class Gym {
     this.gymClasses = [];
   }
 
+  // Getters
+  getName(): string {
+    return this.name;
+  }
+
+  // Setters
+  setName(receivedName: string): void {
+    this.name = receivedName;
+  }
+
   registerUser(user: any): void {
     this.users.push(user);
     console.log(`${user.username} registered to ${this.name}.`);
