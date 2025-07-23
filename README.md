@@ -6,24 +6,29 @@ Welcome to the Gym Management Project! Follow this guide to install, run, format
 
 ## 📦 1. Project Setup
 
-### ✅ Requirements
-- [Node.js](https://nodejs.org/) (v20+ recommended)
-- [Git](https://git-scm.com/)
-- Code editor (e.g. [VS Code](https://code.visualstudio.com/))
+### 📥 Download project
 
+a. (if not new to the project, skip to b) Go to your desired workspace.
+```bash
+git clone https://github.com/nguyenlevid/gymaniac.git
+```
 ### 📥 Install Dependencies
 
 ```bash
 npm install
 ```
 
+b. Fetch newest work
+```bash
+git fetch
+git pull main
+```
 ---
 
 ## 💻 2. Development Workflow
 
 ### ▶️ Start the App (after compiling)
 ```bash
-npm run build      # Compile TypeScript to JavaScript
 npm run dev        # Run the compiled JS in /dist
 ```
 
@@ -58,18 +63,6 @@ npm run formatter
 ---
 
 ## 🔁 5. Git & Version Control
-
-### 🆕 Clone the repository
-```bash
-git clone <your-repo-url>
-cd gym
-```
-
-### 🧪 Pull latest changes before coding
-```bash
-git checkout main
-git pull origin main
-```
 
 ### 🌿 Create a new branch for your task
 ```bash
@@ -107,13 +100,6 @@ npm run formatter
 - Assign your name and wait for review
 
 > ✅ **You can’t merge unless all tests and format checks pass.**
-
----
-
-## 🛠 Optional: VS Code Extensions
-- Prettier - Code Formatter
-- GitLens
-- TypeScript Hero
 
 ---
 
